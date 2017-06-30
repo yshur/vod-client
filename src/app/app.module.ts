@@ -17,6 +17,7 @@ import { ChildListComponent } from './list/child-list/child-list.component';
 import { AdultListComponent } from './list/adult-list/adult-list.component';
 import { ItemDetailComponent } from './default-list/item-detail/item-detail.component';
 import { MovieDetailComponent } from './default-list/item-detail/movie-detail/movie-detail.component';
+import { ItemDetail1Component } from './id-list/item-detail/item-detail.component';
 
 @NgModule({
   declarations: [
