@@ -9,15 +9,8 @@ import { HeaderComponent } from './header/header.component';
 import { DefaultListComponent } from './default-list/default-list.component';
 import { IdListComponent } from './id-list/id-list.component';
 import { IdmovieListComponent } from './idmovie-list/idmovie-list.component';
-import { ListComponent } from './list/list.component';
-import { VodItemComponent } from './list/vod-item/vod-item.component';
-import { VodDetailComponent } from './vod-detail/vod-detail.component';
-import { TeenListComponent } from './list/teen-list/teen-list.component';
-import { ChildListComponent } from './list/child-list/child-list.component';
-import { AdultListComponent } from './list/adult-list/adult-list.component';
 import { ItemDetailComponent } from './default-list/item-detail/item-detail.component';
 import { MovieDetailComponent } from './default-list/item-detail/movie-detail/movie-detail.component';
-import { ItemDetail1Component } from './id-list/item-detail/item-detail.component';
 
 @NgModule({
   declarations: [
@@ -26,12 +19,6 @@ import { ItemDetail1Component } from './id-list/item-detail/item-detail.componen
     DefaultListComponent,
     IdListComponent,
     IdmovieListComponent,
-    ListComponent,
-    VodItemComponent,
-    VodDetailComponent,
-    TeenListComponent,
-    ChildListComponent,
-    AdultListComponent,
     ItemDetailComponent,
     MovieDetailComponent
   ],
