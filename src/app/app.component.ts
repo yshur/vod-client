@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DefaultListComponent } from './default-list/default-list.component';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  loadedFeature = 'vods';
+
+  onNav(feature: string) {
+    this.loadedFeature = feature;
+  }
 }

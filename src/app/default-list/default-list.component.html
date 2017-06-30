@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col-xs-6">
+    <ul class="list-group">
+      <a class="list-group-item"
+      *ngFor="let vod of DefaultListService.vods">
+      type = {{vod.type}}, age range = {{vod.ageRange}} 
+      </a>
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <app-item-detail
+    *ngFor="let vodE1 of DefaultListService.vods"
+    [vod]="vodE1"
+    ></app-item-detail>
+  </div>
+</div>
+

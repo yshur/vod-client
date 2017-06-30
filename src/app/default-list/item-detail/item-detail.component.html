@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-xs-12">
+    <h2>{{vod._id}}</h2>
+    <h1>{{vod.type}}</h1>
+    <h2>{{vod.ageRange}}</h2>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <app-movie-detail
+    *ngFor="let movieEl of movies"
+    [movie]="movieEl"
+    ></app-movie-detail>
+  </div>
+</div>
