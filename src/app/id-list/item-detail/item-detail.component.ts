@@ -9,7 +9,7 @@ import { IdListService } from '../id-list.service';
   styleUrls: ['./item-detail.component.css'],
   providers: [IdListService]   
 })
-export class ItemDetailComponent implements OnInit {
+export class ItemDetail1Component implements OnInit {
   @Input() vod: Vod;
   movies: Movie[];
 
